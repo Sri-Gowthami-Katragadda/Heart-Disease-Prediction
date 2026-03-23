@@ -1,6 +1,39 @@
-This Repository contains the files about heart disease prediction 
-app.py -- uses to display the UI for users and maps the raw input to the existing training schema and tranforms and scales then predicts the data 
-and shows the result to user.
-Logistic_heart_pred.pkl-- it is a pickel file , which contains the information about how  the model is trained and what the data is used 
-columns.pkl-- which contains what are the features contains in our data 
-scaler.pkl -- used to scale the data 
+# ❤️ Heart Disease Prediction System
+
+A Machine Learning project that predicts the likelihood of heart disease using patient health data.
+
+---
+
+## 📌 Overview
+This project uses classification algorithms to analyze medical data and predict whether a person is at risk of heart disease.
+
+---
+
+## ⚙️ Tech Stack
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib / Seaborn  
+
+---
+
+## 🧠 Method
+- Data preprocessing  
+- Feature scaling  
+- Model training (Logistic Regression, KNN, Decision Tree, Random Forest)  
+- Model evaluation  
+
+---
+
+## 🚀 Features
+- Predicts heart disease risk  
+- Compares multiple ML models  
+- Simple and effective pipeline  
+
+---
+
+## ▶️ Run
+```bash
+git clone https://github.com/Sri-Gowthami-Katragadda/Heart-Disease-Prediction.git
+cd Heart-Disease-Prediction
+jupyter notebook
